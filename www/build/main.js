@@ -111,7 +111,7 @@ var HomePage = (function () {
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-home',
-            providers: [__WEBPACK_IMPORTED_MODULE_2__ionic_native_camera__["a" /* Camera */]],template:/*ion-inline-start:"/home/suraj/Repositories/Visualogyx/image_processing/prototype/AnnotationTool/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title text-center>\n    	Annotation Tool\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content class="cards-bg">\n\n		<ion-list class="cards-list-demo">\n    	\n    	\n   	 \n   	  	<ion-card padding>\n   	  		<button ion-item text-center padding (click)="takePicture()">  <ion-icon name="camera"></ion-icon>\n		Take Picture</button>\n  		</ion-card>\n\n  			<ion-card padding>\n   	  		<button ion-item text-center padding (click)="galleryPicture()">  <ion-icon name="photos"></ion-icon>\n		Upload from Gallery</button>\n  		</ion-card>\n  		</ion-list>\n\n  \n\n\n</ion-content>\n\n\n'/*ion-inline-end:"/home/suraj/Repositories/Visualogyx/image_processing/prototype/AnnotationTool/src/pages/home/home.html"*/
+            providers: [__WEBPACK_IMPORTED_MODULE_2__ionic_native_camera__["a" /* Camera */]],template:/*ion-inline-start:"/home/suraj/Repositories/Visualogyx/AnnotationTool/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title text-center>\n    	Annotation Tool\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content class="cards-bg">\n\n		<ion-list class="cards-list-demo">\n    	\n    	\n   	 \n   	  	<ion-card padding>\n   	  		<button ion-item text-center padding (click)="takePicture()">  <ion-icon name="camera"></ion-icon>\n		Take Picture</button>\n  		</ion-card>\n\n  			<ion-card padding>\n   	  		<button ion-item text-center padding (click)="galleryPicture()">  <ion-icon name="photos"></ion-icon>\n		Upload from Gallery</button>\n  		</ion-card>\n  		</ion-list>\n\n  \n\n\n</ion-content>\n\n\n'/*ion-inline-end:"/home/suraj/Repositories/Visualogyx/AnnotationTool/src/pages/home/home.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__ionic_native_camera__["a" /* Camera */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
     ], HomePage);
@@ -214,7 +214,7 @@ var ImagePage = (function () {
     };
     ImagePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-image',template:/*ion-inline-start:"/home/suraj/Repositories/Visualogyx/image_processing/prototype/AnnotationTool/src/pages/image/image.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n    	Image\n      <div text-right>\n      <button text-right ion-button padding (click)="Delete()"> <ion-icon name="undo"></ion-icon></button>\n      <button text-right ion-button padding (click)="Submit()"> <ion-icon name="checkmark-circle"></ion-icon></button>\n      </div>\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n      \n<canvas id="c" height="640" width="480"></canvas>\n\n</ion-content>'/*ion-inline-end:"/home/suraj/Repositories/Visualogyx/image_processing/prototype/AnnotationTool/src/pages/image/image.html"*/
+            selector: 'page-image',template:/*ion-inline-start:"/home/suraj/Repositories/Visualogyx/AnnotationTool/src/pages/image/image.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n    	Image\n      <div text-right>\n      <button text-right ion-button padding (click)="Delete()"> <ion-icon name="undo"></ion-icon></button>\n      <button text-right ion-button padding (click)="Submit()"> <ion-icon name="checkmark-circle"></ion-icon></button>\n      </div>\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n      \n<canvas id="c" height="640" width="480"></canvas>\n\n</ion-content>'/*ion-inline-end:"/home/suraj/Repositories/Visualogyx/AnnotationTool/src/pages/image/image.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavParams */]])
     ], ImagePage);
@@ -337,7 +337,7 @@ var MyApp = (function () {
         });
     }
     MyApp = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/home/suraj/Repositories/Visualogyx/image_processing/prototype/AnnotationTool/src/app/app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"/home/suraj/Repositories/Visualogyx/image_processing/prototype/AnnotationTool/src/app/app.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/home/suraj/Repositories/Visualogyx/AnnotationTool/src/app/app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"/home/suraj/Repositories/Visualogyx/AnnotationTool/src/app/app.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
     ], MyApp);
